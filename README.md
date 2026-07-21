@@ -16,7 +16,7 @@ The source is closed, which is standard for a commercial game. The store page, d
 - [sprite-chroma-key](https://github.com/avjcodes/sprite-chroma-key) removes green or magenta screens from sprite sheets when the background color drifts from frame to frame, which AI video generation does constantly. It measures the actual background of every frame instead of trusting the color you asked for.
 - [steam-comp-tracker](https://github.com/avjcodes/steam-comp-tracker) is how I watch the market I'm launching into. It snapshots the public stats of comparable games over time and turns the history into one static report: review velocity, price moves, and which store tags the whole comp set shares. Also standard library only, because a research habit shouldn't need a stack.
 
-There is more tooling that stays private because it lives inside my notes: an Obsidian second brain wired into my agent workflow, with session hooks, semantic search over the vault, and code knowledge graphs. Every work session starts there.
+There is more tooling that stays private because it lives inside my notes: an Obsidian second brain wired into my agent workflow, with session hooks, semantic search over the vault, and code knowledge graphs. Every work session starts there. One piece of that system is public now: [vaultlint](https://github.com/avjcodes/vaultlint) checks any Obsidian vault for broken wikilinks, missing heading anchors, orphan notes, and frontmatter rule violations. TypeScript, no dependencies, and the first run on my own vault caught two links pointing at notes that never existed.
 
 ## pourcost
 
