@@ -14,8 +14,13 @@ The source is closed, which is standard for a commercial game. The store page, d
 
 - [markdown-task-dashboard](https://github.com/avjcodes/markdown-task-dashboard) is the tracker I run the game with, published as a template. Python standard library only. It reads plain markdown task notes and turns them into a countdown clock: hours of work remaining, projected finish date at my measured pace, and how that lands against the Next Fest date. I look at it every day, which is more than I can say for most trackers I've tried.
 - [sprite-chroma-key](https://github.com/avjcodes/sprite-chroma-key) removes green or magenta screens from sprite sheets when the background color drifts from frame to frame, which AI video generation does constantly. It measures the actual background of every frame instead of trusting the color you asked for.
+- [steam-comp-tracker](https://github.com/avjcodes/steam-comp-tracker) is how I watch the market I'm launching into. It snapshots the public stats of comparable games over time and turns the history into one static report: review velocity, price moves, and which store tags the whole comp set shares. Also standard library only, because a research habit shouldn't need a stack.
 
 There is more tooling that stays private because it lives inside my notes: an Obsidian second brain wired into my agent workflow, with session hooks, semantic search over the vault, and code knowledge graphs. Every work session starts there.
+
+## pourcost
+
+[pourcost](https://github.com/avjcodes/pourcost) is bar math as a command line tool: what each drink costs to make, pour cost percent, what to charge to hit a target, what the stock on hand is worth. I poured drinks for a decade and watched managers do this on napkins. TypeScript that Node 23+ runs natively, no dependencies, tested with the built-in runner.
 
 ## Contact
 
