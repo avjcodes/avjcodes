@@ -6,7 +6,7 @@ Before software I spent ten years in hospitality operations. The last stretch of
 
 ## Production tooling I build and use daily
 
-- [markdown-task-dashboard](https://github.com/avjcodes/markdown-task-dashboard) is a task tracker I use daily, published as a template. Python standard library only. It reads plain markdown task notes and turns them into a countdown clock: hours of work remaining, projected finish date at my measured pace, and how that lands against the Next Fest date. I look at it every day, which is more than I can say for most trackers I've tried.
+- [markdown-task-dashboard](https://github.com/avjcodes/markdown-task-dashboard) is a task tracker I use daily, published as a template. Python standard library only. It reads plain markdown task notes and turns them into a countdown clock: hours of work remaining, projected finish date at my measured pace, and how that lands against the ship date. I look at it every day, which is more than I can say for most trackers I've tried.
 - [sprite-chroma-key](https://github.com/avjcodes/sprite-chroma-key) removes green or magenta screens from sprite sheets when the background color drifts from frame to frame, which AI video generation does constantly. It measures the actual background of every frame instead of trusting the color you asked for.
 - [steam-comp-tracker](https://github.com/avjcodes/steam-comp-tracker) snapshots the public stats of comparable games over time and turns the history into one static report: review velocity, price moves, and which store tags the whole comp set shares. Also standard library only, because a research habit shouldn't need a stack.
 
